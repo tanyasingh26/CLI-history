@@ -1,0 +1,1002 @@
+tanya@GS-4130:~$ history
+  994  python handle.py
+  995  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+  996  docker logs --handle1
+  997  docker logs --help
+  998  docker logs --follow handle1
+  999  docker image rm -f handle
+ 1000  docker rm -f handle1
+ 1001  docker build -t handle .
+ 1002  docker exec -it app1 /bin/bash
+ 1003  docker run -it --name handle1 --network my-net handle
+ 1004  docker rm -f handle1
+ 1005  docker image rm -f handle
+ 1006  docker ps
+ 1007  source /home/tanya/Documents/tanya-proj/venv/bin/activate
+ 1008  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Documents/tanya-proj/c2/app.py
+ 1009  cd ..
+ 1010  cd tanya-proj
+ 1011  docker-compose -f recreate
+ 1012  docker-compose --force-recreate
+ 1013  docker-compose up --force-recreate 
+ 1014  docker image rm $(docker image list)
+ 1015  docker image rm $(docker image list) -f
+ 1016  docker-compose up --force-recreate 
+ 1017  docker image list
+ 1018  docker-compose up --force-recreate 
+ 1019  docker image rm $(docker image list) -f
+ 1020  docker-compose up --force-recreate 
+ 1021  python3 -m virtualenv venv
+ 1022  source venv/bin/activate
+ 1023  reset
+ 1024  pip install -r requirements.txt
+ 1025  reset
+ 1026  docker-compose
+ 1027  docker-compose config
+ 1028  reset
+ 1029  docker-compose up --force-recreate
+ 1030  reset
+ 1031  docker image rm -f $(docker image list)
+ 1032  reset
+ 1033  docker-compose up --force-recreate
+ 1034  source /home/tanya/Documents/tanya-proj/venv/bin/activate
+ 1035  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/handle.py
+ 1036  docker ps
+ 1037  docker run -d --name app1 --network my-net app
+ 1038  docker ps
+ 1039  docker network inspect my-net
+ 1040  docker ps
+ 1041  docker network inspect my-net
+ 1042  clear
+ 1043  docker image rm -f app
+ 1044  docker images
+ 1045  clear
+ 1046  docker image rm -f app
+ 1047  docker rm -f app1
+ 1048  docker build -t app .
+ 1049  docker run -d --name app1 --network my-net app
+ 1050  docker rm -f app1
+ 1051  docker image rm -f app
+ 1052  docker build -t app .
+ 1053  docker run -d --name app1 --network my-net app
+ 1054  docker image rm -f app
+ 1055  docker rm -f app1
+ 1056  docker build -t app .
+ 1057  docker run -d --name app1 --network my-net app
+ 1058  docker ps
+ 1059  docker stop app1
+ 1060  docker start app1
+ 1061  docker ps
+ 1062  docker exec -it app1 /bin/bash
+ 1063  docker rm -f app1
+ 1064  docker image rm -f app
+ 1065  clear
+ 1066  docker build -t app .
+ 1067  docker run -it --name app1 --network my-net app
+ 1068  ifconfig 
+ 1069  clear
+ 1070  docker exec -it handle1 /bin/sh
+ 1071  docker ps
+ 1072  docker rm -f handle1
+ 1073  docker rm -f app1
+ 1074  docker images ls
+ 1075  docker images rm -f app
+ 1076  docker images ls -a
+ 1077  docker ps
+ 1078  docker exec -it handle /bin/sh
+ 1079  docker exec -it handle /bin/bash
+ 1080  docker exec -it handle1 /bin/bash
+ 1081  docker exec -it handle1 /bin/sh
+ 1082  clear
+ 1083  docker build -t handle
+ 1084  docker build -t handle .
+ 1085  docker run -it --name handle1 --network my-net handle
+ 1086  source /home/tanya/Documents/tanya-proj/venv/bin/activate
+ 1087  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/application.py
+ 1088  source /home/tanya/Documents/tanya-proj/venv/bin/activate
+ 1089  python handle.py
+ 1090  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/application.py
+ 1091  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/handle.py
+ 1092  docker build -t mapp .
+ 1093  docker run -it --name mapp1 --network mynet2 mapp
+ 1094  docker ps
+ 1095  docker ps -a
+ 1096  clear
+ 1097  docker image rm -f handle
+ 1098  docker build -t handle .
+ 1099  docker run -it --name handle1 --network my-net handle
+ 1100  docker rm -f handle1
+ 1101  docker image rm -f handle
+ 1102  docker build -t app .
+ 1103  docker run -it --name app1 --network my-net app
+ 1104  docker rm -f app1
+ 1105  docker image rm -f app 
+ 1106  docker build -t handle .
+ 1107  docker run -it --name handle1 --network my-net handle
+ 1108  docker r rm -f handle1 
+ 1109  docker rm -f handle1 
+ 1110  docker run -d --name handle1 --network my-net handle
+ 1111  docker exec -it handle1 /bin/sh
+ 1112  docker rm -f handle1 
+ 1113  docker image rm -f handle 
+ 1114  clear
+ 1115  docker build -t handle .
+ 1116  docker run -d --name handle1 --network my-net handle
+ 1117  docker image rm -f handle 
+ 1118  docker rm -f handle1 
+ 1119  docker network ls
+ 1120  docker network inspect my-net
+ 1121  clear
+ 1122  docker build -t app .
+ 1123  docker run -it --name app1 --network my-net app
+ 1124  docker rm -f app1 
+ 1125  docker run -d --name app1 --network my-net app
+ 1126  docker exec -it /bin/bash
+ 1127  docker exec -it app1 /bin/bash
+ 1128  docker rm -f app1 
+ 1129  docker image rm -f app 
+ 1130  docker network inspect my-net
+ 1131  clear
+ 1132  docker network inspect my-net
+ 1133  docker build -t handle
+ 1134  docker build -t handle .
+ 1135  docker run -it --name handle1 --network my-net handle
+ 1136  docker build -t app .
+ 1137  docker run -it --name app1 --network my-net app
+ 1138  docker build -t mapp .
+ 1139  docker run -it --network my-net2 --rm mongo mongo --host mydb test
+ 1140  docker run -it --name mapp1 --network my-net2mapp
+ 1141  docker build -t mapp .
+ 1142  docker run -it --name mapp1 --network my-net2 mapp
+ 1143  docker rm -f mapp1
+ 1144  docker run -it --name mapp1 --network my-net2 mapp
+ 1145  docker network ls
+ 1146  docker run --name mydb -d mongo
+ 1147  docker rm -f mydb
+ 1148  docker run --name mydb --network my-net2 -d mongo
+ 1149  docker run -it --network my-net2 --rm mongo mongo --host mydb
+ 1150  docker rm -f handle1
+ 1151  docker run -it --network my-net2 --rm mongo mongo --host mydb
+ 1152  docker network inspect my-net
+ 1153  pymongo
+ 1154  docker run -it --name handle1 --network my-net handle
+ 1155  docker rm -f handle1
+ 1156  docker run -it --name handle1 --network my-net handle
+ 1157  docker rm -f handle1
+ 1158  docker run -d --name handle1 --network my-net handle
+ 1159  docker image rm -f handle
+ 1160  clear
+ 1161  docker rm -f handle1
+ 1162  docker build -t handle .
+ 1163  docker run -d --name handle1 --network my-net handle
+ 1164  docker rm -f handle1
+ 1165  docker image rm -f handle
+ 1166  clear
+ 1167  docker build -t handle .
+ 1168  docker run -it --name handle1 --network my-net handle
+ 1169  docker image rm -f handle
+ 1170  docker rm -f handle1
+ 1171  clear
+ 1172  docker run -it --name handle1 --network my-net handle
+ 1173  docker build -t handle .
+ 1174  docker run -it --name handle1 --network my-net handle
+ 1175  docker rm -f handle1
+ 1176  docker image rm -f handle
+ 1177  docker rm -f app1
+ 1178  docker run -it --name app1 --network my-net app
+ 1179  docker rm -f app1
+ 1180  docker image rm -f app
+ 1181  docker build -t app .
+ 1182  docker run -it --name app1 --network my-net app
+ 1183  docker image rm -f app
+ 1184  docker rm -f app1
+ 1185  docker network inspect my-net2
+ 1186  cd Desktop/
+ 1187  cd practice/
+ 1188  python3 try.py
+ 1189  docker image ls
+ 1190  docker image rm mapp
+ 1191  docker image rm -f mapp
+ 1192  docker image rm -f mongo
+ 1193  docker pull mongo
+ 1194  docker image ls
+ 1195  docker image rm -f tanyaproj_c1
+ 1196  docker image rm -f tanyaproj_c2
+ 1197  clear
+ 1198  docker image ls
+ 1199  docker image rm -f python
+ 1200  docker image rm -f b707c2244b7d 
+ 1201  docker image rm -f 95a9e476c634
+ 1202  clear
+ 1203  docker run --name mydb mongo
+ 1204  docker rm -f mydb
+ 1205  docker run --name mydb mongo
+ 1206  docker run -d -p 27017-27019:27017-27019 --name mydb mongo
+ 1207  docker rm -f mydb
+ 1208  docker run -d -p 27017-27019:27017-27019 --name mydb mongo
+ 1209  docker rm -f mydb
+ 1210  docker run -d -p 27017:27017 --name mydb mongo
+ 1211  docker run -d -p 27017:27017 --name mydb --network my-net2 mongo
+ 1212  docker rm -f mydb
+ 1213  clear
+ 1214  docker run -d -p 27017:27017 --name mydb mongo
+ 1215  docker rm -f mydb
+ 1216  docker run -d -p 27017:27017 --name mydb --network my-net2 mongo
+ 1217  docker network inspect my-net2
+ 1218  source /home/tanya/Documents/tanya-proj/venv/bin/activate
+ 1219  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/try.py
+ 1220  python3
+ 1221  cd ..
+ 1222  cd Desktop/
+ 1223  cd practice
+ 1224  /home/tanya/Documents/tanya-proj/venv/bin/python3.6 /home/tanya/Desktop/practice/try.py
+ 1225  mkdir docker-compose.yml
+ 1226  gedit docker-compose.yml/
+ 1227  rm -r docker-compose.yml/
+ 1228  gedit docker-compose.yml
+ 1229  docker build -t mapp .
+ 1230  docker run -it --name myapp1 --network my-net2 mapp
+ 1231  docker rm -f app1
+ 1232  docker rm -f myapp1
+ 1233  docker image rm -f mapp
+ 1234  clear
+ 1235  docker build -t mapp .
+ 1236  docker run -it --name mapp1 --network my-net2 mapp
+ 1237  docker rm -f mapp1
+ 1238  docker run -it --name mapp1 --network my-net2 mapp
+ 1239  docker rm -f mapp1
+ 1240  docker run -it --name mapp1 --network my-net2 mapp
+ 1241  docker rm -f mapp1
+ 1242  docker image rm -f mapp
+ 1243  docker rm -f mapp1
+ 1244  clear
+ 1245  docker build -t mapp .
+ 1246  docker run -it --name mapp1 --network my-net2 mapp
+ 1247  docker rm -f mapp1
+ 1248  docker image rm -f mapp
+ 1249  docker ps
+ 1250  docker rm -f mydb
+ 1251  docker image rm -f mongo
+ 1252  docker-compose config
+ 1253  clear
+ 1254  docker-compose config
+ 1255  docker-compose up
+ 1256  docker-compose build
+ 1257  docker-compose up
+ 1258  docker-compose down
+ 1259  docker-compose buuild
+ 1260  docker-compose build
+ 1261  docker-compose up
+ 1262  docker-compose down
+ 1263  docker-compose build
+ 1264  docker-compose up
+ 1265  docker-compose down
+ 1266  docker-compose build
+ 1267  docker-compose up
+ 1268  docker-compose down
+ 1269  docker exec -it mydb /bin/bash
+ 1270  docker-compose down
+ 1271  cd ..
+ 1272  cd Desktop/
+ 1273  cd practice/
+ 1274  cd test/
+ 1275  /usr/bin/python3 /home/tanya/Desktop/practice/test/test_square.py
+ 1276  pytest
+ 1277  pytest -m others
+ 1278  clear
+ 1279  /usr/bin/python3 /home/tanya/Desktop/practice/test/test_square.py
+ 1280  clear
+ 1281  pytest -m others
+ 1282  pip install pytest
+ 1283  pip install pytest-xdist
+ 1284  /usr/bin/python3 /home/tanya/Desktop/practice/test/test_compare.py
+ 1285  pytest -m others -v
+ 1286  clear
+ 1287  pytest -m others -v
+ 1288  clear
+ 1289  pytest -k multiplication
+ 1290  clear
+ 1291  pytest -k multiplication
+ 1292  clear
+ 1293  pytest test_try.py
+ 1294  clear
+ 1295  pytest test_try.py
+ 1296  clear
+ 1297  pytest test_try.py
+ 1298  clear
+ 1299  pytest -k try.py -v
+ 1300  clear
+ 1301  pytest -k try.py -v
+ 1302  clear
+ 1303  pytest k try.py -v
+ 1304  pytest -k try.py -v
+ 1305  pytest -k try.py 
+ 1306  clear
+ 1307  ssh kube-master@192.168.56.101
+ 1308  ssh kube-master@192.168.56.101
+ 1309  docker network ls
+ 1310  docker ps
+ 1311  docker build -t app .
+ 1312  docker run -it app 
+ 1313  docker run -it --name app1 app 
+ 1314  history
+ 1315  clear
+ 1316  docker run -it --name app1 app 
+ 1317  docker stop app1
+ 1318  docker run -it --name app1 app 
+ 1319  docker run -it --name app2 app 
+ 1320  docker rm -f app1
+ 1321  docker rm -f app2
+ 1322  docker build -t app .
+ 1323  docker run -it app
+ 1324  docker ps
+ 1325  docker ps -a
+ 1326  docker restart -it dcdb44f037cd
+ 1327  docker rm -f dcdb44f037cd
+ 1328  docker run -it --name app1 app
+ 1329  docker rm -f app1
+ 1330  docker run -d --name app1 app
+ 1331  docker exec -it app1 /bin/bash
+ 1332  docker ps
+ 1333  docker logs
+ 1334  docker logs --help
+ 1335  docker logs --details
+ 1336  docker logs 21c29033a1e9 
+ 1337  docker logs --details 21c29033a1e9 
+ 1338  docker logs -it --details 21c29033a1e9 
+ 1339  docker logs -it --details 21c29033a1e9 sh
+ 1340  docker logs --details 21c29033a1e9 sh
+ 1341  docker container logs --details 21c29033a1e9 
+ 1342  kubectl run mongodb --image=mongo --port=27017
+ 1343  kubectl expose deployment mongodb --type=NodePort
+ 1344  kubectl get po
+ 1345  kubectl expose -it mongodb mongodb-76c97bf759-xrjkg sh
+ 1346  kubectl expose -it mongodb-76c97bf759-xrjkg sh
+ 1347  kubectl exec -it mongodb-76c97bf759-xrjkg sh
+ 1348  minikube service mongodb --url
+ 1349  docker run --help
+ 1350  docker ps -a
+ 1351  docker run restart 21c29033a1e9 
+ 1352  sudo docker run restart 21c29033a1e9 
+ 1353  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+ 1354  sudo apt install curl
+ 1355  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+ 1356  chmod +x ./kubectl
+ 1357  sudo mv ./kubectl /usr/local/bin/kubectl
+ 1358  kubectl version
+ 1359  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+ 1360  sudo mkdir -p /usr/local/bin/
+ 1361  sudo install minikube /usr/local/bin/
+ 1362  minikube start
+ 1363  minikube dashboard
+ 1364  docker volume
+ 1365  docker volume ls
+ 1366  clear
+ 1367  docker volume prune
+ 1368  docker volume ls
+ 1369  docker volume create myvol1
+ 1370  docker volume create myvol2
+ 1371  docker volume ls
+ 1372  docker volume rm myvol1 myvol2
+ 1373  docker volume create 
+ 1374  docker volume ls
+ 1375  docker volume prune
+ 1376  clear 
+ 1377  docker volume create myvol
+ 1378  docker image ls
+ 1379  ifup eth0
+ 1380  ifconfig
+ 1381  clear
+ 1382  ip a show eth0
+ 1383  ifconfig
+ 1384  hostname -I
+ 1385  ifconfig -a
+ 1386  ping google.com
+ 1387  ifconfig -a
+ 1388  docker volume ls
+ 1389  docker container create --name con1 -it --mount source=myvol,target=/application app
+ 1390  docker container create --name con2 -it --mount source=myvol,target=/application app
+ 1391  docker ps
+ 1392  docker ps-a
+ 1393  docker ps -a
+ 1394  docker container start con1
+ 1395  docker container start con2
+ 1396  docker exec -it con1 sh
+ 1397  docker volume inspect myvol
+ 1398  docker container inspect con1
+ 1399  clear
+ 1400  docker volume rm vol1
+ 1401  docker volume rm myvol
+ 1402  docker volume rm -f myvol
+ 1403  docker volume prune myvol
+ 1404  docker volume prune
+ 1405  docker volume ls
+ 1406  docker container ls
+ 1407  docker ps -all -q
+ 1408  docker rm -f 81ad2c70e301
+ 1409  clear
+ 1410  docker ps -a
+ 1411  docker ps -a -q
+ 1412  docker rm -f $(docker ps -a -q)
+ 1413  docker ls -a
+ 1414  clear
+ 1415  docker ps -a -q
+ 1416  docker volume rm -f myvol
+ 1417  docker network ls
+ 1418  docker network prune
+ 1419  docker network ls
+ 1420  docker image ls
+ 1421  docker rmi app
+ 1422  docker rmi 37905aa85a23 
+ 1423  docker rmi 4de9de8ae588 
+ 1424  docker rmi 901fba8cb19c 
+ 1425  clear
+ 1426  docker image ls
+ 1427  docker rmi mongoapp_web 
+ 1428  ifconfig
+ 1429  docker network ls
+ 1430  docker network rm -f e5de764a0519
+ 1431  docker network rm  e5de764a0519
+ 1432  clear
+ 1433  ifconfig
+ 1434  python
+ 1435  ls /var/lib/docker/overlay2
+ 1436  sudo ls /var/lib/docker/overlay2
+ 1437  sudo ls /var/lib/docker/overlay2/019cbd81058bb73d42eba522bdc738758f10281f0a5e41628f5d875f01fc2969/diff/
+ 1438  touch /var/lib/docker/overlay2/180cea7d…cbcac4a/diff/doot
+ 1439  sudo touch /var/lib/docker/overlay2/180cea7d…cbcac4a/diff/doot
+ 1440  sudo cat /var/lib/docker/overlay2/180cea7d…cbcac4a/diff/doot
+ 1441  sudo cat> /var/lib/docker/overlay2/180cea7d…cbcac4a/diff/doot
+ 1442  sudo cat>/var/lib/docker/overlay2/180cea7d…cbcac4a/diff/doot
+ 1443  cd Desktop/
+ 1444  cat xyz
+ 1445  cat>xyz
+ 1446  /usr/bin/python3 /home/tanya/Desktop/practice/tester2.py
+ 1447  cd /
+ 1448  cd Desktop
+ 1449  ls
+ 1450  cd home
+ 1451  ls
+ 1452  cd tanya
+ 1453  ls
+ 1454  cd /Desktop/practice/
+ 1455  cd /Desktop/practice
+ 1456  cd Desktop
+ 1457  cd practice
+ 1458  python tester2.py
+ 1459  /usr/bin/python3 /home/tanya/Desktop/practice/practice.py
+ 1460  mongo
+ 1461  /usr/bin/python3 /home/tanya/Desktop/practice/try.py
+ 1462  docker build -t app .
+ 1463  docker run -it app
+ 1464  docker build -t handle .
+ 1465  docker rmi -f handle
+ 1466  docker images ls
+ 1467  docker images ls a
+ 1468  docker images ls -a
+ 1469  clear
+ 1470  docker network create my-net
+ 1471  docker build -t app .
+ 1472  docker run -it --network my-net app
+ 1473  docker build -t handle .
+ 1474  docker run -it --network my-net app
+ 1475  docker run -it --network my-net handle
+ 1476  docker images ls
+ 1477  docker build -t handle .
+ 1478  docker run -it --name handle1 --network my-net handle
+ 1479  /usr/bin/python3 /home/tanya/Desktop/handle/handle.py
+ 1480  cd /
+ 1481  cd home
+ 1482  cd tanya
+ 1483  cd Desktop
+ 1484  cd handle
+ 1485  /usr/bin/python3 /home/tanya/Desktop/handle/handle.py
+ 1486  python
+ 1487  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+ 1488  /usr/bin/python3 /home/tanya/Desktop/practice/try.py
+ 1489  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1490  /usr/bin/python3 /home/tanya/Desktop/practice/handle1.py
+ 1491  /usr/bin/python3 /home/tanya/Desktop/practice/try.py
+ 1492  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1493  docker build -t app .
+ 1494  docker run -it --network my-net app
+ 1495  docker ps
+ 1496  docker rm -f handle
+ 1497  docker rm -f afd367f15c49 
+ 1498  docker rm -f b99bc905059f 
+ 1499  docker ps
+ 1500  docker image ls
+ 1501  docker rmi -f app
+ 1502  docker rmi -f handle
+ 1503  docker rmi -f 15d2a44feba6 
+ 1504  docker rmi -f d7c864f48e80
+ 1505  docker rmi -f afef8af13f31
+ 1506  clear
+ 1507  docker image ls
+ 1508  from flask import Flask, request
+ 1509  import requests
+ 1510  import json
+ 1511  app = Flask(__name__)
+ 1512  @app.route("/", methods = ['GET','POST','PUT','DELETE'])
+ 1513  def action():
+ 1514  if __name__ == '__main__':
+ 1515  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+ 1516  mongo
+ 1517  /usr/bin/python3 /home/tanya/Desktop/practice/handle1.py
+ 1518  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+ 1519  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1520  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+ 1521  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1522  clear
+ 1523  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1524  clear
+ 1525  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1526  clear
+ 1527  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1528  /usr/bin/python3 /home/tanya/Desktop/practice/handle.py
+ 1529  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1530  clear
+ 1531  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1532  clear
+ 1533  /usr/bin/python3 /home/tanya/Desktop/practice/app.py
+ 1534  docker image ps-a
+ 1535  clear
+ 1536  docker images ps-a
+ 1537  docker build -t app .
+ 1538  sudo apt-get install --help
+ 1539  apt-get install --help
+ 1540  man apt-get install
+ 1541  mongod
+ 1542  clear
+ 1543  /bin/bash
+ 1544  docker exec -it ubuntu /bin/bash 
+ 1545  docker exec -it ubuntu:latest /bin/bash 
+ 1546  docker run -it ubuntu:latest /bin/bash 
+ 1547  docker exec -it ubuntu:latest /bin/bash 
+ 1548  docker ps-a
+ 1549  docker ps -a
+ 1550  docker rm -f $(docker ps -aq)
+ 1551  docker run -it ubuntu
+ 1552  docker build -t app .
+ 1553  clear
+ 1554  docker build -t app .
+ 1555  clear
+ 1556  man docker start
+ 1557  docker pull python
+ 1558  docker run python
+ 1559  docker ps -a
+ 1560  docker start -it ad81e9a8075a
+ 1561  clear
+ 1562  cd Desktop/
+ 1563  cat file.txt>dbhsajas
+ 1564  cat>file.txt|smskf
+ 1565  cat>file.txt|echo dkska
+ 1566  cd Desktop
+ 1567  cat f.txt > ndasjnasfna
+ 1568  echo kjskjd >t.txt
+ 1569  cd ..
+ 1570  echo dajshasjk >/Desktop/t.txt
+ 1571  echo dajshasjk >/Desktop/t.txt/
+ 1572  echo dajshasjk >/Desktop/
+ 1573  /Desktop
+ 1574  ./Desktop
+ 1575  cd ./Desktop
+ 1576  cd /
+ 1577  echo ndjsdn> ./Desktop/t.txt
+ 1578  echo ndjsdn> . /Desktop/t.txt
+ 1579  cd home
+ 1580  ls
+ 1581  cd /
+ 1582  ls
+ 1583  echo sbjsd > ./home/tanya/Desktop/t.txt
+ 1584  ls
+ 1585  echo #Unit contains the dependencies to be satisfied before the service is started.
+ 1586  [Unit]
+ 1587  Description=MongoDB Database
+ 1588  After=network.target
+ 1589  Documentation=https://docs.mongodb.org/manual
+ 1590  # Service tells systemd, how the service should be started.
+ 1591  # Key `User` specifies that the server will run under the mongodb user and
+ 1592  # `ExecStart` defines the startup command for MongoDB server.
+ 1593  [Service]
+ 1594  User=mongodb
+ 1595  Group=mongodb
+ 1596  ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
+ 1597  # Install tells systemd when the service should be automatically started.
+ 1598  # `multi-user.target` means the server will be automatically started during boot.
+ 1599  [Install]
+ 1600  echo #Unit contains the dependencies to be satisfied before the service is started.
+ 1601  [Unit]
+ 1602  Description=MongoDB Database
+ 1603  After=network.target
+ 1604  Documentation=https://docs.mongodb.org/manual
+ 1605  # Service tells systemd, how the service should be started.
+ 1606  # Key `User` specifies that the server will run under the mongodb user and
+ 1607  # `ExecStart` defines the startup command for MongoDB server.
+ 1608  [Service]
+ 1609  User=mongodb
+ 1610  Group=mongodb
+ 1611  ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
+ 1612  # Install tells systemd when the service should be automatically started.
+ 1613  # `multi-user.target` means the server will be automatically started during boot.
+ 1614  [Install]
+ 1615  gedit
+ 1616  #Unit contains the dependencies to be satisfied before the service is started./
+ 1617  [Unit]/
+ 1618  Description=MongoDB Database/
+ 1619  After=network.target/
+ 1620  Documentation=https://docs.mongodb.org/manual/
+ 1621  # Service tells systemd, how the service should be started./
+ 1622  # Key `User` specifies that the server will run under the mongodb user and/
+ 1623  # `ExecStart` defines the startup command for MongoDB server./
+ 1624  [Service]/
+ 1625  User=mongodb/
+ 1626  Group=mongodb/
+ 1627  ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf/
+ 1628  # Install tells systemd when the service should be automatically started./
+ 1629  # `multi-user.target` means the server will be automatically started during boot./
+ 1630  [Install]/
+ 1631  bsfsjdkfnsk/
+ 1632  clear
+ 1633  docker network ls
+ 1634  docker images
+ 1635  docker pull python3
+ 1636  docker pull python
+ 1637  docker rmi -f dd28316eddd8 
+ 1638  docker images
+ 1639  docker rmi -f 95c4d3e2125d 41c2d2700269
+ 1640  docker rm -f app1
+ 1641  docker network inspect my-net
+ 1642  /usr/bin/python3 /home/tanya/Desktop/practice/handle1.py
+ 1643  docker build -t app .
+ 1644  clear
+ 1645  docker build -t app .
+ 1646  clear
+ 1647  docker build -t app .
+ 1648  clear
+ 1649  docker build -t app .
+ 1650  clear
+ 1651  docker build -t app .
+ 1652  clear
+ 1653  docker build -t app .
+ 1654  docker run -it --name app1 --network my-net app
+ 1655  docker images
+ 1656  docker rmi -f $(docker images -q)
+ 1657  clear
+ 1658  docker build -t app .
+ 1659  clear
+ 1660  docker images
+ 1661  docker rmi 47967b93794a 
+ 1662  docker rmi -f 47967b93794a 
+ 1663  docker pull python
+ 1664  docker pull python3
+ 1665  docker pull python
+ 1666  clear
+ 1667  docker build -t app .
+ 1668  clear
+ 1669  docker build -t app .
+ 1670  clear
+ 1671  docker build -t app .
+ 1672  clear
+ 1673  docker exec -it app1 /bin/bash
+ 1674  docker build -t app .
+ 1675  clear
+ 1676  docker build -t app .
+ 1677  docker images
+ 1678  docker rmi -f f979845a4a71
+ 1679  docker build -t app .
+ 1680  docker run -it --name app1 --network my-net app
+ 1681  docker network inspect my-net
+ 1682  docker container stop app1 handle1
+ 1683  docker build -t handle .
+ 1684  docker run -it --name handle1 --network my-net handle
+ 1685  docker images
+ 1686  docker rmi -f app
+ 1687  docker rm -f app1
+ 1688  docker build -t app .
+ 1689  docker run -it --name app1 --network my-net app
+ 1690  docker network inspect my-net
+ 1691  /usr/bin/python3 /home/tanya/Desktop/app/app.py
+ 1692  /usr/bin/python3 /home/tanya/Desktop/handle/handle.py
+ 1693  docker ps -a
+ 1694  docker rm -f $(docker ps -aq)
+ 1695  docker images 
+ 1696  docker rmi -f app handle
+ 1697  clear
+ 1698  docker rm -f app1
+ 1699  docker exec -it app1 /bin/bash
+ 1700  mongod
+ 1701  docker build -t app .
+ 1702  clear
+ 1703  docker build -t app .
+ 1704  docker run -it --name app1 --network mynet app
+ 1705  docker run -it --name app1 --network my-net app
+ 1706  docker exec -it app1 /bin/bash
+ 1707  docker rm -f app1
+ 1708  docker rmi -f app
+ 1709  gedit start.py
+ 1710  docker build -t handle .
+ 1711  docker run -it --name handle1 --network my-net handle
+ 1712  docker build -t app .
+ 1713  docker run -it --name app1 --network my-net app
+ 1714  docker exec -it app1 /bin/bash 
+ 1715  docker rm -f app1
+ 1716  docker rm handle1
+ 1717  docker rm -f handle1
+ 1718  docker images ls
+ 1719  docker images ls -a
+ 1720  docker images ls-a
+ 1721  docker images
+ 1722  docker rmi -f c6d65bd8587d 476eab8a3033 
+ 1723  docker build -t app .
+ 1724  docker images
+ 1725  docker rmi -f 8e32551f435b 26d5b63a610a 6d30e0679b43 1ceb113ef517
+ 1726  clear
+ 1727  clear
+ 1728  docker images
+ 1729  docker rmi -f 32912bef5e45 
+ 1730  clear
+ 1731  docker build -t app .
+ 1732  mongod
+ 1733  apt list --installed | grep mongo
+ 1734  clear
+ 1735  mongod
+ 1736  apt show mongod
+ 1737  which mongod
+ 1738  man chown
+ 1739  clear
+ 1740  clear
+ 1741  docker build -t app .
+ 1742  docker build -t app1 .
+ 1743  docker build -t app .
+ 1744  clear
+ 1745  docker build -t app .
+ 1746  docker run -it --name app1 --network my-net app
+ 1747  docker ps
+ 1748  docker rm -f app1
+ 1749  docker build -t app .
+ 1750  docker ps
+ 1751  docker rm -f app1
+ 1752  docker build -t app .
+ 1753  touch script
+ 1754  docker images
+ 1755  docker rmi -f $(docker images ls -aq)
+ 1756  docker rmi -f $(docker images -q)
+ 1757  docker images
+ 1758  docker build -t app .
+ 1759  docker rmi -f $(docker images -q)
+ 1760  clear
+ 1761  docker build -t app .
+ 1762  docker images
+ 1763  docker rm -f app1
+ 1764  docker pull ubuntu
+ 1765  docker build -t app .
+ 1766  docker run -it --name app1 --network my-net app
+ 1767  docker build -t app .
+ 1768  docker run -it --name app1 --network my-net app
+ 1769  docker exec -it app /bin/bash
+ 1770  docker exec -it app1 /bin/bash
+ 1771  docker container --help
+ 1772  docker build -t handle .
+ 1773  docker run -it --name handle1 --network my-net handle
+ 1774  docker container restart app1
+ 1775  docker container restart -it app1
+ 1776  docker container restart --help
+ 1777  docker container restart
+ 1778  docker container rm -f app1
+ 1779  docker container run -it --name app1 --network my-net app
+ 1780  docker rm -f handle1
+ 1781  docker run -it --name handle1 --network my-net handle
+ 1782  docker rm -f handle1
+ 1783  docker run -it --name handle1 --network my-net handle
+ 1784  docker network inspect my-net
+ 1785  docker rm -f app1
+ 1786  docker rm -f handle11
+ 1787  docker rm -f handle1
+ 1788  clear
+ 1789  docker exec -it app1 /bin/bash
+ 1790  mongo
+ 1791  mongod
+ 1792  mongo
+ 1793  mongodb
+ 1794  mongo 
+ 1795  mongod
+ 1796  docker container run -it --name app1 --network my-net app
+ 1797  code .
+ 1798  docker rm -f app1
+ 1799  docker rm -f handle1
+ 1800  docker exec -it app1 /bin/bash
+ 1801  docker rm -f app1
+ 1802  docker rm -f handle1
+ 1803  mongo /
+ 1804  mongo
+ 1805  mongod
+ 1806  mongod /
+ 1807  mongod \
+ 1808  mongod |
+ 1809  mongod \
+ 1810  mongod &
+ 1811  mongo
+ 1812  docker images
+ 1813  docker rmi -f a12183801f82 35eda4d5391b 28025f793d1a a49e3ea409c0
+ 1814  clear
+ 1815  docker exec -it app1 /bin/bash
+ 1816  docker ls
+ 1817  docker ps
+ 1818  docker inspect 6398b66b4382 
+ 1819  docker rm -f app
+ 1820  docker rm -f app1
+ 1821  docker rm -f handle1
+ 1822  docker rm -f app1
+ 1823  docker exec -it app1 /bin/bash
+ 1824  docker rm -f app1
+ 1825  docker exec -it app1 /bin/bash
+ 1826  docker rm -f app1
+ 1827  docker build -t app.
+ 1828  docker build -t app .
+ 1829  docker container run -it --name app1 --network my-net app
+ 1830  docker build -t app .
+ 1831  clear
+ 1832  docker build -t app .
+ 1833  clear
+ 1834  docker build -t app .
+ 1835  docker container run -it --name app1 --network my-net app
+ 1836  docker build -t app .
+ 1837  docker container run -it --name app1 --network my-net app
+ 1838  docker build -t app .
+ 1839  ddocker rmi -f $(docker images -q)
+ 1840  docker rmi -f $(docker images -q)
+ 1841  docker images
+ 1842  docker rmi -f 3d7da2ada9a6
+ 1843  clear
+ 1844  docker compose build
+ 1845  docker compose build .
+ 1846  docker compose build
+ 1847  docker compose --help
+ 1848  docker rmi -f $(docker images -q)
+ 1849  docker compose config
+ 1850  docker-compose config
+ 1851  docker-compose build
+ 1852  docker-compose up
+ 1853  docker rmi -f $(docker images -q)
+ 1854  docker images
+ 1855  docker rm -f app1
+ 1856  docker rm -f handle1
+ 1857  docker volume create my-vol 
+ 1858  docker pull ubuntu
+ 1859  docker run -it --name u1 -v my-vol ubuntu
+ 1860  docker rm -f u1
+ 1861  minikube start
+ 1862  nano nginx-pod.yaml
+ 1863  kubectl create -f nginx-pod.yaml
+ 1864  kubectl get pod
+ 1865  kubectl get pod -o wide
+ 1866  kubectl get pod nginx-pod -o yaml
+ 1867  kubectl get pod nginx-pod -o json
+ 1868  kubectl delete pod nginx-pod
+ 1869  exit
+ 1870  docker build -t handle .
+ 1871  docker run -it --name handle1 --network my-net handle 
+ 1872  docker build -t handle .
+ 1873  docker run -it --name handle1 --network my-net handle 
+ 1874  docker build -t handle .
+ 1875  docker run -it --name handle1 --network my-net handle 
+ 1876  clear
+ 1877  ./script.sh
+ 1878  chmod +x script.sh
+ 1879  ./script.sh
+ 1880  mongod -port 27018
+ 1881  ./script.sh
+ 1882  clear
+ 1883  docker build -t app .
+ 1884  clear
+ 1885  docker build -t app .
+ 1886  clear
+ 1887  docker build -t app .
+ 1888  clear
+ 1889  docker build -t app .
+ 1890  docker run -it --name app1 --network my-net app
+ 1891  docker build -t app .
+ 1892  clear
+ 1893  docker build -t app .
+ 1894  clear
+ 1895  docker build -t app .
+ 1896  clear
+ 1897  docker build -t app .
+ 1898  docker run -it --name app1 --network my-net app
+ 1899  minikube start
+ 1900  exit
+ 1901  kubectl create -f nginx-rs.yaml
+ 1902  nano nginx-rs.yaml
+ 1903  kubectl create -f nginx-rs.yaml
+ 1904  kubectl apply -f nginx-rs.yaml
+ 1905  kubectl get pod
+ 1906  kubectl get rc
+ 1907  kubectl get rs
+ 1908  ls
+ 1909  minikube start
+ 1910  nano
+ 1911  kubectl create -f nginx-rc.yaml
+ 1912  nano 
+ 1913  nano  nginx-rc.yaml
+ 1914  kubectl create -f nginx-rc.yaml
+ 1915  nano  nginx-rc.yaml
+ 1916  kubectl create -f nginx-rc.yaml
+ 1917  nano  nginx-rc.yaml
+ 1918  kubectl create -f nginx-rc.yaml
+ 1919  kubectl create -f --validate=false nginx-rc.yaml
+ 1920  nano  nginx-rc.yaml
+ 1921  kubectl create -f --validate=false nginx-rc.yaml
+ 1922  kubectl create -f nginx-rc.yaml
+ 1923  kubelet get nginx-rc.yml
+ 1924  kubectl get nginx-rc.yml
+ 1925  kubectl get nginx-rc.yaml
+ 1926  kubectl get pods
+ 1927  kubectl scale rc nginx-rc --replicas=5
+ 1928  kubectl get rc nginx-rc
+ 1929  kubectl get po -o wide
+ 1930  kubectl scale rc nginx-rc --replicas=2
+ 1931  kubectl get rc nginx-rc
+ 1932  kubectl delete -f nginx.yml
+ 1933  kubectl delete -f nginx.yaml
+ 1934  kubectl delete -f nginx-rc.yml
+ 1935  kubectl delete -f nginx-rc.yaml
+ 1936  kubectl get po -l app=nginx-app
+ 1937  nano nginx-rs.yaml
+ 1938  kubectl create -f nginx-rc.yaml
+ 1939  kubectl get pods
+ 1940  clear
+ 1941  kubectl get pods
+ 1942  kubectl get po -l tier=frontend
+ 1943  kubectl get pods
+ 1944  kubectl get po -l tier=frontend
+ 1945  nano nginx-rs.yaml
+ 1946  kubectl get po -l tier= frontend
+ 1947  nano nginx-rs.yaml
+ 1948  kubectl get po -l tier= frontend
+ 1949  kubectl get po -l tier=frontend
+ 1950  nano nginx-rs.yaml
+ 1951  kubectl get pods
+ 1952  kubectl describe pods
+ 1953  clear
+ 1954  nano nginx-rs.yaml
+ 1955  kubectl delete rs nginx-rs.yaml
+ 1956  kubectl delete rc nginx-rs.yaml
+ 1957  minikube dashboard
+ 1958  clear
+ 1959  minikube create -f nginx-rs.yaml
+ 1960  kubectl create -f nginx-rs.yaml
+ 1961  nano nginx-rs.yaml
+ 1962  kubectl create -f nginx-rs.yaml
+ 1963  nano nginx-rs.yaml
+ 1964  kubectl create -f nginx-rs.yaml
+ 1965  nano nginx-rs.yaml
+ 1966  kubectl create -f nginx-rs.yaml
+ 1967  kubectl get pods
+ 1968  kubectl get po -l tier:frontend
+ 1969  nano nginx-rs.yaml
+ 1970  kubectl get po -l tier=frontend
+ 1971  kubectl get rs nginx-rs -o wide
+ 1972  kubectl get describe nginx-rs
+ 1973  kubectl describe nginx-rs
+ 1974  kubectl describe rs nginx-rs
+ 1975  kubectl delete -f nqinx-rc.yaml
+ 1976  kubectl delete -f nqinx-rs.yaml
+ 1977  kubectl delete -f nginx-rs.yaml
+ 1978  kubectl delete -f nginx-rc.yaml
+ 1979  nano nginx-deploy.yaml
+ 1980  kubectl create -f nginx-deploy.yaml
+ 1981  nano nginx-deploy.yaml
+ 1982  kubectl create -f nginx-deploy.yaml
+ 1983  kubectl get deploy
+ 1984  kubectl get deploy -l app=nginx-app
+ 1985  kubectl get rs -l app=nginx-app
+ 1986  kubectl get po -l app=nginx-app
+ 1987  kubectl describe deploy -l app=nginx-app
+ 1988  kubectl delete -f nginx-deploy.yaml
+ 1989  clear
+ 1990  exit
+ 1991  gedit CLI history
+ 1992  ls
+ 1993  history
+
